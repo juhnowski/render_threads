@@ -84,6 +84,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/ApplicationContext.cpp">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/ApplicationContext.h">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/ImageContext.cpp">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/ImageContext.h">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/StreamContext.cpp">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/StreamContext.h">
+			<Option target="test_threads"/>
+		</Unit>
 		<Unit filename="/home/ilya/CLionProjects/test_threads/main.cpp">
 			<Option target="test_threads"/>
 		</Unit>

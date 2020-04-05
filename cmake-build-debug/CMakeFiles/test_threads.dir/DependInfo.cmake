@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/ilya/CLionProjects/test_threads/ApplicationContext.cpp" "/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles/test_threads.dir/ApplicationContext.cpp.o"
+  "/home/ilya/CLionProjects/test_threads/ImageContext.cpp" "/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles/test_threads.dir/ImageContext.cpp.o"
+  "/home/ilya/CLionProjects/test_threads/StreamContext.cpp" "/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles/test_threads.dir/StreamContext.cpp.o"
   "/home/ilya/CLionProjects/test_threads/main.cpp" "/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles/test_threads.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

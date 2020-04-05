@@ -123,6 +123,87 @@ test_threads/fast:
 	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/build
 .PHONY : test_threads/fast
 
+ApplicationContext.o: ApplicationContext.cpp.o
+
+.PHONY : ApplicationContext.o
+
+# target to build an object file
+ApplicationContext.cpp.o:
+	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/ApplicationContext.cpp.o
+.PHONY : ApplicationContext.cpp.o
+
+ApplicationContext.i: ApplicationContext.cpp.i
+
+.PHONY : ApplicationContext.i
+
+# target to preprocess a source file
+ApplicationContext.cpp.i:
+	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/ApplicationContext.cpp.i
+.PHONY : ApplicationContext.cpp.i
+
+ApplicationContext.s: ApplicationContext.cpp.s
+
+.PHONY : ApplicationContext.s
+
+# target to generate assembly for a file
+ApplicationContext.cpp.s:
+	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/ApplicationContext.cpp.s
+.PHONY : ApplicationContext.cpp.s
+
+ImageContext.o: ImageContext.cpp.o
+
+.PHONY : ImageContext.o
+
+# target to build an object file
+ImageContext.cpp.o:
+	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/ImageContext.cpp.o
+.PHONY : ImageContext.cpp.o
+
+ImageContext.i: ImageContext.cpp.i
+
+.PHONY : ImageContext.i
+
+# target to preprocess a source file
+ImageContext.cpp.i:
+	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/ImageContext.cpp.i
+.PHONY : ImageContext.cpp.i
+
+ImageContext.s: ImageContext.cpp.s
+
+.PHONY : ImageContext.s
+
+# target to generate assembly for a file
+ImageContext.cpp.s:
+	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/ImageContext.cpp.s
+.PHONY : ImageContext.cpp.s
+
+StreamContext.o: StreamContext.cpp.o
+
+.PHONY : StreamContext.o
+
+# target to build an object file
+StreamContext.cpp.o:
+	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/StreamContext.cpp.o
+.PHONY : StreamContext.cpp.o
+
+StreamContext.i: StreamContext.cpp.i
+
+.PHONY : StreamContext.i
+
+# target to preprocess a source file
+StreamContext.cpp.i:
+	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/StreamContext.cpp.i
+.PHONY : StreamContext.cpp.i
+
+StreamContext.s: StreamContext.cpp.s
+
+.PHONY : StreamContext.s
+
+# target to generate assembly for a file
+StreamContext.cpp.s:
+	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/StreamContext.cpp.s
+.PHONY : StreamContext.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test_threads"
 	@echo "... edit_cache"
+	@echo "... ApplicationContext.o"
+	@echo "... ApplicationContext.i"
+	@echo "... ApplicationContext.s"
+	@echo "... ImageContext.o"
+	@echo "... ImageContext.i"
+	@echo "... ImageContext.s"
+	@echo "... StreamContext.o"
+	@echo "... StreamContext.i"
+	@echo "... StreamContext.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
