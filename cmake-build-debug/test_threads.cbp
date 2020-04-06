@@ -102,7 +102,64 @@
 		<Unit filename="/home/ilya/CLionProjects/test_threads/StreamContext.h">
 			<Option target="test_threads"/>
 		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/commands/Add.cpp">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/commands/Add.h">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/commands/Command.cpp">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/commands/Command.h">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/commands/Executor.cpp">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/commands/Executor.h">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/commands/Start.cpp">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/commands/Start.h">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/commands/Stop.cpp">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/commands/Stop.h">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/libh/string_enum.h">
+			<Option target="test_threads"/>
+		</Unit>
 		<Unit filename="/home/ilya/CLionProjects/test_threads/main.cpp">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/main.h">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/rabbit/Controller.cpp">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/rabbit/Controller.h">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/rabbit/Handler.cpp">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/rabbit/Handler.h">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/rabbit/Timer.cpp">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/rabbit/Timer.h">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/settings.h">
 			<Option target="test_threads"/>
 		</Unit>
 		<Unit filename="/home/ilya/CLionProjects/test_threads/CMakeLists.txt">

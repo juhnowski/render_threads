@@ -3,6 +3,7 @@
 #include <mutex>
 #include "StreamContext.h"
 #include <vector>
+#include "settings.h"
 
 using namespace std;
 

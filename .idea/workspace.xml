@@ -12,19 +12,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0449a73-ab74-4efd-8617-45cba8d04220" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ApplicationContext.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApplicationContext.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageContext.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageContext.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamContext.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamContext.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/Add.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/Add.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/Command.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/Command.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/Executor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/Executor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/Start.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/Start.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/Stop.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/Stop.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libh/json.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit/Controller.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit/Controller.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit/Handler.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit/Handler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit/Timer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit/Timer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationContext.h" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationContext.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StreamContext.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/StreamContext.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StreamContext.h" beforeDir="false" afterPath="$PROJECT_DIR$/StreamContext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
@@ -45,14 +67,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1a3MT6MKYyaEgrfeZb7tOf12jAt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/rabbit" />
+      <recent name="$PROJECT_DIR$/cmake-build-debug" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="test_threads" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_threads" TARGET_NAME="test_threads" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="test_threads" RUN_TARGET_NAME="test_threads">
@@ -73,40 +106,79 @@
       <updated>1585959828185</updated>
       <workItem from="1585959829765" duration="9714000" />
       <workItem from="1586054590781" duration="12566000" />
+      <workItem from="1586150509410" duration="27941000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1809" height="137" key="GridCell.Tab.0.bottom" timestamp="1586078721221">
+    <state x="562" y="115" key="CommitChangelistDialog2" timestamp="1586078751421">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1809" height="137" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586078721221" />
-    <state width="1809" height="137" key="GridCell.Tab.0.center" timestamp="1586078721221">
+    <state x="562" y="115" key="CommitChangelistDialog2/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586078751421" />
+    <state width="1809" height="146" key="GridCell.Tab.0.bottom" timestamp="1586185751895">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1809" height="137" key="GridCell.Tab.0.center/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586078721221" />
-    <state width="1809" height="137" key="GridCell.Tab.0.left" timestamp="1586078721221">
+    <state width="1809" height="146" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586185751895" />
+    <state width="1809" height="146" key="GridCell.Tab.0.center" timestamp="1586185751895">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1809" height="137" key="GridCell.Tab.0.left/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586078721221" />
-    <state width="1809" height="137" key="GridCell.Tab.0.right" timestamp="1586078721221">
+    <state width="1809" height="146" key="GridCell.Tab.0.center/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586185751895" />
+    <state width="1809" height="146" key="GridCell.Tab.0.left" timestamp="1586185751895">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1809" height="137" key="GridCell.Tab.0.right/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586078721221" />
-    <state x="310" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586054964388">
+    <state width="1809" height="146" key="GridCell.Tab.0.left/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586185751895" />
+    <state width="1809" height="146" key="GridCell.Tab.0.right" timestamp="1586185751895">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="310" y="380" key="com.intellij.ide.util.TipDialog/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586054964388" />
-    <state x="742" y="182" key="refactoring.ChangeSignatureDialog" timestamp="1586073286547">
+    <state width="1809" height="146" key="GridCell.Tab.0.right/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586185751895" />
+    <state width="1809" height="310" key="GridCell.Tab.1.bottom" timestamp="1586185351795">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="742" y="182" key="refactoring.ChangeSignatureDialog/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586073286547" />
-    <state x="655" y="236" key="search.everywhere.popup" timestamp="1586073029183">
+    <state width="1809" height="310" key="GridCell.Tab.1.bottom/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586185351795" />
+    <state width="1809" height="310" key="GridCell.Tab.1.center" timestamp="1586185351795">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="655" y="236" key="search.everywhere.popup/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586073029183" />
+    <state width="1809" height="310" key="GridCell.Tab.1.center/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586185351795" />
+    <state width="1809" height="310" key="GridCell.Tab.1.left" timestamp="1586185351795">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1809" height="310" key="GridCell.Tab.1.left/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586185351795" />
+    <state width="1809" height="310" key="GridCell.Tab.1.right" timestamp="1586185351795">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1809" height="310" key="GridCell.Tab.1.right/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586185351795" />
+    <state x="592" y="275" key="Vcs.Push.Dialog.v2" timestamp="1586078753375">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="592" y="275" key="Vcs.Push.Dialog.v2/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586078753375" />
+    <state x="310" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586150525542">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="310" y="380" key="com.intellij.ide.util.TipDialog/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586150525542" />
+    <state x="742" y="182" key="refactoring.ChangeSignatureDialog" timestamp="1586181655513">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="742" y="182" key="refactoring.ChangeSignatureDialog/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586181655513" />
+    <state x="655" y="236" key="search.everywhere.popup" timestamp="1586154185414">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="655" y="236" key="search.everywhere.popup/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586154185414" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/commands/Command.cpp</url>
+          <line>11</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

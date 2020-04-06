@@ -1,7 +1,8 @@
 #include "StreamContext.h"
 
-StreamContext::StreamContext(string *name, int *videoPort, int *audioPort, ImageContext *imageCtx, bool isActive)
+StreamContext::StreamContext(int idx, string *name, int *videoPort, int *audioPort, ImageContext *imageCtx, bool isActive)
         : name(name), video_port(videoPort), audio_port(audioPort), image_ctx(imageCtx), is_active(isActive) {
+    this->idx = idx;
     this->name = name;
     this->video_port = videoPort;
     this->audio_port = audioPort;

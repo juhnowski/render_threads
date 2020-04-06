@@ -109,12 +109,124 @@ CMakeFiles/test_threads.dir/ApplicationContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_threads.dir/ApplicationContext.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/CLionProjects/test_threads/ApplicationContext.cpp -o CMakeFiles/test_threads.dir/ApplicationContext.cpp.s
 
+CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o: CMakeFiles/test_threads.dir/flags.make
+CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o: ../rabbit/Controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o -c /home/ilya/CLionProjects/test_threads/rabbit/Controller.cpp
+
+CMakeFiles/test_threads.dir/rabbit/Controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_threads.dir/rabbit/Controller.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/CLionProjects/test_threads/rabbit/Controller.cpp > CMakeFiles/test_threads.dir/rabbit/Controller.cpp.i
+
+CMakeFiles/test_threads.dir/rabbit/Controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_threads.dir/rabbit/Controller.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/CLionProjects/test_threads/rabbit/Controller.cpp -o CMakeFiles/test_threads.dir/rabbit/Controller.cpp.s
+
+CMakeFiles/test_threads.dir/rabbit/Handler.cpp.o: CMakeFiles/test_threads.dir/flags.make
+CMakeFiles/test_threads.dir/rabbit/Handler.cpp.o: ../rabbit/Handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test_threads.dir/rabbit/Handler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_threads.dir/rabbit/Handler.cpp.o -c /home/ilya/CLionProjects/test_threads/rabbit/Handler.cpp
+
+CMakeFiles/test_threads.dir/rabbit/Handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_threads.dir/rabbit/Handler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/CLionProjects/test_threads/rabbit/Handler.cpp > CMakeFiles/test_threads.dir/rabbit/Handler.cpp.i
+
+CMakeFiles/test_threads.dir/rabbit/Handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_threads.dir/rabbit/Handler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/CLionProjects/test_threads/rabbit/Handler.cpp -o CMakeFiles/test_threads.dir/rabbit/Handler.cpp.s
+
+CMakeFiles/test_threads.dir/rabbit/Timer.cpp.o: CMakeFiles/test_threads.dir/flags.make
+CMakeFiles/test_threads.dir/rabbit/Timer.cpp.o: ../rabbit/Timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/test_threads.dir/rabbit/Timer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_threads.dir/rabbit/Timer.cpp.o -c /home/ilya/CLionProjects/test_threads/rabbit/Timer.cpp
+
+CMakeFiles/test_threads.dir/rabbit/Timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_threads.dir/rabbit/Timer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/CLionProjects/test_threads/rabbit/Timer.cpp > CMakeFiles/test_threads.dir/rabbit/Timer.cpp.i
+
+CMakeFiles/test_threads.dir/rabbit/Timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_threads.dir/rabbit/Timer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/CLionProjects/test_threads/rabbit/Timer.cpp -o CMakeFiles/test_threads.dir/rabbit/Timer.cpp.s
+
+CMakeFiles/test_threads.dir/commands/Command.cpp.o: CMakeFiles/test_threads.dir/flags.make
+CMakeFiles/test_threads.dir/commands/Command.cpp.o: ../commands/Command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/test_threads.dir/commands/Command.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_threads.dir/commands/Command.cpp.o -c /home/ilya/CLionProjects/test_threads/commands/Command.cpp
+
+CMakeFiles/test_threads.dir/commands/Command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_threads.dir/commands/Command.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/CLionProjects/test_threads/commands/Command.cpp > CMakeFiles/test_threads.dir/commands/Command.cpp.i
+
+CMakeFiles/test_threads.dir/commands/Command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_threads.dir/commands/Command.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/CLionProjects/test_threads/commands/Command.cpp -o CMakeFiles/test_threads.dir/commands/Command.cpp.s
+
+CMakeFiles/test_threads.dir/commands/Executor.cpp.o: CMakeFiles/test_threads.dir/flags.make
+CMakeFiles/test_threads.dir/commands/Executor.cpp.o: ../commands/Executor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/test_threads.dir/commands/Executor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_threads.dir/commands/Executor.cpp.o -c /home/ilya/CLionProjects/test_threads/commands/Executor.cpp
+
+CMakeFiles/test_threads.dir/commands/Executor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_threads.dir/commands/Executor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/CLionProjects/test_threads/commands/Executor.cpp > CMakeFiles/test_threads.dir/commands/Executor.cpp.i
+
+CMakeFiles/test_threads.dir/commands/Executor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_threads.dir/commands/Executor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/CLionProjects/test_threads/commands/Executor.cpp -o CMakeFiles/test_threads.dir/commands/Executor.cpp.s
+
+CMakeFiles/test_threads.dir/commands/Add.cpp.o: CMakeFiles/test_threads.dir/flags.make
+CMakeFiles/test_threads.dir/commands/Add.cpp.o: ../commands/Add.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/test_threads.dir/commands/Add.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_threads.dir/commands/Add.cpp.o -c /home/ilya/CLionProjects/test_threads/commands/Add.cpp
+
+CMakeFiles/test_threads.dir/commands/Add.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_threads.dir/commands/Add.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/CLionProjects/test_threads/commands/Add.cpp > CMakeFiles/test_threads.dir/commands/Add.cpp.i
+
+CMakeFiles/test_threads.dir/commands/Add.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_threads.dir/commands/Add.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/CLionProjects/test_threads/commands/Add.cpp -o CMakeFiles/test_threads.dir/commands/Add.cpp.s
+
+CMakeFiles/test_threads.dir/commands/Start.cpp.o: CMakeFiles/test_threads.dir/flags.make
+CMakeFiles/test_threads.dir/commands/Start.cpp.o: ../commands/Start.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/test_threads.dir/commands/Start.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_threads.dir/commands/Start.cpp.o -c /home/ilya/CLionProjects/test_threads/commands/Start.cpp
+
+CMakeFiles/test_threads.dir/commands/Start.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_threads.dir/commands/Start.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/CLionProjects/test_threads/commands/Start.cpp > CMakeFiles/test_threads.dir/commands/Start.cpp.i
+
+CMakeFiles/test_threads.dir/commands/Start.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_threads.dir/commands/Start.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/CLionProjects/test_threads/commands/Start.cpp -o CMakeFiles/test_threads.dir/commands/Start.cpp.s
+
+CMakeFiles/test_threads.dir/commands/Stop.cpp.o: CMakeFiles/test_threads.dir/flags.make
+CMakeFiles/test_threads.dir/commands/Stop.cpp.o: ../commands/Stop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/test_threads.dir/commands/Stop.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_threads.dir/commands/Stop.cpp.o -c /home/ilya/CLionProjects/test_threads/commands/Stop.cpp
+
+CMakeFiles/test_threads.dir/commands/Stop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_threads.dir/commands/Stop.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/CLionProjects/test_threads/commands/Stop.cpp > CMakeFiles/test_threads.dir/commands/Stop.cpp.i
+
+CMakeFiles/test_threads.dir/commands/Stop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_threads.dir/commands/Stop.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/CLionProjects/test_threads/commands/Stop.cpp -o CMakeFiles/test_threads.dir/commands/Stop.cpp.s
+
 # Object files for target test_threads
 test_threads_OBJECTS = \
 "CMakeFiles/test_threads.dir/main.cpp.o" \
 "CMakeFiles/test_threads.dir/ImageContext.cpp.o" \
 "CMakeFiles/test_threads.dir/StreamContext.cpp.o" \
-"CMakeFiles/test_threads.dir/ApplicationContext.cpp.o"
+"CMakeFiles/test_threads.dir/ApplicationContext.cpp.o" \
+"CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o" \
+"CMakeFiles/test_threads.dir/rabbit/Handler.cpp.o" \
+"CMakeFiles/test_threads.dir/rabbit/Timer.cpp.o" \
+"CMakeFiles/test_threads.dir/commands/Command.cpp.o" \
+"CMakeFiles/test_threads.dir/commands/Executor.cpp.o" \
+"CMakeFiles/test_threads.dir/commands/Add.cpp.o" \
+"CMakeFiles/test_threads.dir/commands/Start.cpp.o" \
+"CMakeFiles/test_threads.dir/commands/Stop.cpp.o"
 
 # External object files for target test_threads
 test_threads_EXTERNAL_OBJECTS =
@@ -123,9 +235,18 @@ test_threads: CMakeFiles/test_threads.dir/main.cpp.o
 test_threads: CMakeFiles/test_threads.dir/ImageContext.cpp.o
 test_threads: CMakeFiles/test_threads.dir/StreamContext.cpp.o
 test_threads: CMakeFiles/test_threads.dir/ApplicationContext.cpp.o
+test_threads: CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o
+test_threads: CMakeFiles/test_threads.dir/rabbit/Handler.cpp.o
+test_threads: CMakeFiles/test_threads.dir/rabbit/Timer.cpp.o
+test_threads: CMakeFiles/test_threads.dir/commands/Command.cpp.o
+test_threads: CMakeFiles/test_threads.dir/commands/Executor.cpp.o
+test_threads: CMakeFiles/test_threads.dir/commands/Add.cpp.o
+test_threads: CMakeFiles/test_threads.dir/commands/Start.cpp.o
+test_threads: CMakeFiles/test_threads.dir/commands/Stop.cpp.o
 test_threads: CMakeFiles/test_threads.dir/build.make
+test_threads: /usr/local/lib/libamqpcpp.so
 test_threads: CMakeFiles/test_threads.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable test_threads"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable test_threads"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_threads.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

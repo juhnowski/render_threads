@@ -1,0 +1,33 @@
+#include "Add.h"
+#include "../main.h"
+
+namespace command {
+
+    StreamContext* Add::add_StreamContext(string name, int videoPort, int audioPort) {
+        m_stream_cnt.lock();
+        int idx = stream_cnt;
+        stream_cnt++;
+        m_stream_cnt.unlock();
+
+        ImageContext *im = new ImageContext(&mu[idx], &images[idx]);
+
+        names[idx] = string(name);
+        video_ports[idx] = videoPort;
+        audio_ports[idx] = audioPort;
+
+        StreamContext *ctx = new StreamContext(idx, &names[idx], &video_ports[idx], &audio_ports[idx], im,true);
+
+        app->streams.push_back(ctx);
+
+        return ctx;
+    }
+
+    void Add::exec(Command *cmd) {
+        add_StreamContext(
+                cmd->params_str[ParamEnum::ID],
+                cmd->params_int[ParamEnum::VIDEO],
+                cmd->params_int[ParamEnum::AUDIO]
+        );
+    }
+
+}

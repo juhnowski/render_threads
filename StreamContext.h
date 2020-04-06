@@ -8,11 +8,11 @@ using namespace std;
 
 class StreamContext {
 public:
-    StreamContext(string *name, int *videoPort, int *audioPort, ImageContext *imageCtx, bool isActive);
+    StreamContext(int idx, string *name, int *videoPort, int *audioPort, ImageContext *imageCtx, bool isActive);
 
     string to_string() const;
     friend ostream& operator << (ostream& outs, const StreamContext* obj);
-
+    int idx;
     string *name;
     int *video_port;
     int *audio_port;
