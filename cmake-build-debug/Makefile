@@ -123,33 +123,6 @@ test_threads/fast:
 	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/build
 .PHONY : test_threads/fast
 
-ApplicationContext.o: ApplicationContext.cpp.o
-
-.PHONY : ApplicationContext.o
-
-# target to build an object file
-ApplicationContext.cpp.o:
-	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/ApplicationContext.cpp.o
-.PHONY : ApplicationContext.cpp.o
-
-ApplicationContext.i: ApplicationContext.cpp.i
-
-.PHONY : ApplicationContext.i
-
-# target to preprocess a source file
-ApplicationContext.cpp.i:
-	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/ApplicationContext.cpp.i
-.PHONY : ApplicationContext.cpp.i
-
-ApplicationContext.s: ApplicationContext.cpp.s
-
-.PHONY : ApplicationContext.s
-
-# target to generate assembly for a file
-ApplicationContext.cpp.s:
-	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/ApplicationContext.cpp.s
-.PHONY : ApplicationContext.cpp.s
-
 ImageContext.o: ImageContext.cpp.o
 
 .PHONY : ImageContext.o
@@ -456,9 +429,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test_threads"
 	@echo "... edit_cache"
-	@echo "... ApplicationContext.o"
-	@echo "... ApplicationContext.i"
-	@echo "... ApplicationContext.s"
 	@echo "... ImageContext.o"
 	@echo "... ImageContext.i"
 	@echo "... ImageContext.s"

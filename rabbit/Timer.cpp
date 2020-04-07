@@ -1,10 +1,4 @@
 #include "Timer.h"
-#include <ev.h>
-#include <amqpcpp.h>
-#include <amqpcpp/libev.h>
-#include <openssl/ssl.h>
-#include <openssl/opensslv.h>
-
 
 namespace rabbit {
 

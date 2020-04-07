@@ -1,6 +1,5 @@
 #include "Add.h"
-#include "../main.h"
-#include "../settings.h"
+
 
 namespace command {
 
@@ -9,7 +8,7 @@ namespace command {
         int idx = stream_cnt;
 
         if (idx>slave_stream_max_count) {
-            cout << "Maximum slave threads slave_stream_max_count="<<slave_stream_max_count<<" reached." << endl;
+            cout << " [-] Maximum slave threads slave_stream_max_count="<<slave_stream_max_count<<" reached." << endl;
             return nullptr;
         }
 
@@ -24,8 +23,8 @@ namespace command {
 
         StreamContext *ctx = new StreamContext(idx, &names[idx], &video_ports[idx], &audio_ports[idx], im,true);
 
-        app->streams.push_back(ctx);
-
+        app_streams.push_back(ctx);
+        cout << " [x] Add: "<< ctx << endl;
         return ctx;
     }
 

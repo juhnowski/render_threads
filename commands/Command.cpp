@@ -1,7 +1,3 @@
-//
-// Created by ilya on 06.04.2020.
-//
-
 #include "Command.h"
 
 namespace command {
@@ -9,17 +5,20 @@ namespace command {
     using namespace std;
 
     Command::Command(string *json_str) {
+        cout << " [x] Received message: " << *json_str << endl;
         auto j = json::parse(*json_str);
         string s_cmd = j[STR_MSG_COMMAND];
         cmd = cmd_from_string(&s_cmd);
-        auto p = j[STR_MSG_PARAMS];
-        string name = p[STR_PARAM_ID];
-        int video = p[STR_PARAM_VIDEO];
-        int audio = p[STR_PARAM_AUDIO];
-        name.erase(std::remove(name.begin(), name.end(), '"'), name.end());
-        params_str.insert(make_pair(ParamEnum::ID, name));
-        params_int.insert(make_pair(ParamEnum::VIDEO, video));
-        params_int.insert(make_pair(ParamEnum::AUDIO, audio));
+        if (cmd==CmdEnum::ADD) {
+            auto p = j[STR_MSG_PARAMS];
+            string name = p[STR_PARAM_ID];
+            int video = p[STR_PARAM_VIDEO];
+            int audio = p[STR_PARAM_AUDIO];
+            name.erase(std::remove(name.begin(), name.end(), '"'), name.end());
+            params_str.insert(make_pair(ParamEnum::ID, name));
+            params_int.insert(make_pair(ParamEnum::VIDEO, video));
+            params_int.insert(make_pair(ParamEnum::AUDIO, audio));
+        }
     }
 
     CmdEnum Command::cmd_from_string(string *value) {

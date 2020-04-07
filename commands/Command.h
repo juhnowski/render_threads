@@ -8,6 +8,7 @@
 #include <string>
 #include "../libh/json.hpp"
 #include <map>
+#include <iostream>
 
 namespace command {
     using namespace std;

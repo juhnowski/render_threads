@@ -1,7 +1,7 @@
 #ifndef TEST_THREADS_START_H
 #define TEST_THREADS_START_H
 
-#include "Command.h"
+#include "Stop.h"
 
 namespace command {
     class Start {

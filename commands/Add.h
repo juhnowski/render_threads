@@ -1,8 +1,7 @@
 #ifndef TEST_THREADS_ADD_H
 #define TEST_THREADS_ADD_H
 
-#include "Command.h"
-#include "../StreamContext.h"
+#include "Start.h"
 
 namespace command {
     class Add {

@@ -1,21 +1,15 @@
 #include "Controller.h"
-#include <ev.h>
-#include <amqpcpp.h>
-#include <amqpcpp/libev.h>
-#include <openssl/ssl.h>
-#include <openssl/opensslv.h>
-#include "Handler.h"
-#include "Timer.h"
-#include <iostream>
-#include <mutex>
 
-#include "../commands/Executor.h"
 
 namespace rabbit {
     using json = nlohmann::json;
     using namespace std;
 
-
+    auto receiveMessageCallback(const AMQP::Message &message, uint64_t deliveryTag, bool redelivered)
+    {
+        string json_str = string(message.body()).substr(0,message.bodySize());
+        command::Executor::exec(&json_str);
+    };
 
     void Controller::start() {
         // access to the event loop
@@ -30,6 +24,8 @@ namespace rabbit {
 #else
         OPENSSL_init_ssl(0, NULL);
 #endif
+
+
 
         // make a connection
         AMQP::Address address("amqp://localhost");
@@ -51,17 +47,6 @@ namespace rabbit {
                     // something went wrong creating the exchange
                     cout << " [-]  Declare exchange error: "<< message << endl;
                 });
-
-
-
-        auto receiveMessageCallback =
-                [](const AMQP::Message &message,
-                   uint64_t deliveryTag,
-                   bool redelivered)
-                {
-                    string json_str = string(message.body()).substr(0,message.bodySize());
-                    command::Executor::exec(&json_str);
-                };
 
         string queue_name = "my-queue";
         myChannel.declareQueue(queue_name, true)

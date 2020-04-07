@@ -2,6 +2,7 @@
 #define TEST_THREADS_STOP_H
 
 #include "Command.h"
+#include "../global.h"
 
 namespace command {
     class Stop {

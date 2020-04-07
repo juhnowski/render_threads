@@ -1,9 +1,11 @@
 #include "Start.h"
-#include "../main.h"
+
 namespace command {
 
     void Start::exec(Command *cmd) {
-        is_run = true;
+        app_is_run = true;
+
+        cout << "Try to start ["<<&app_is_run<<"]: " <<app_is_run<< endl;
     }
 
 }

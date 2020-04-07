@@ -4,16 +4,27 @@
 using namespace std;
 using namespace rabbit;
 
+mutex mu[slave_stream_max_count + 1];
+string names[slave_stream_max_count + 1];
+int video_ports[slave_stream_max_count + 1];
+int audio_ports[slave_stream_max_count + 1];
+int images[slave_stream_max_count + 1];
+
+int stream_cnt = 0;
+mutex m_stream_cnt;
+
+vector<StreamContext *> app_streams;
+bool app_is_run = false;
 
 
 void master(StreamContext *ctx) {
     while(ctx->is_active) {
 
-        for (int i = 1; i < app->streams.size(); ++i) {
-            app->streams.at(i)->image_ctx->mtx->lock();
-            *app->streams.at(i)->image_ctx->image-= 2;
-            cout << "Master: " << *app->streams.at(i)->image_ctx->image << endl;
-            app->streams.at(i)->image_ctx->mtx->unlock();
+        for (int i = 1; i < app_streams.size(); ++i) {
+            app_streams.at(i)->image_ctx->mtx->lock();
+            *app_streams.at(i)->image_ctx->image-= 2;
+            cout << "Master: " << *app_streams.at(i)->image_ctx->image << endl;
+            app_streams.at(i)->image_ctx->mtx->unlock();
         }
 
         usleep(50000);
@@ -34,34 +45,50 @@ void slave(StreamContext *ctx) {
 }
 
 
-void rabbit_control() {
-
-    Controller *ctrl = new Controller();
+void rabbit_control(Controller *ctrl) {
     ctrl->start();
 }
 
 void run_control() {
-    while(!is_run) {
-        usleep(50000);
+    bool flag = false;
+
+    while(!app_is_run) {
+        if (!flag) {
+            usleep(50000);
+        }
     }
 
-    thread t_master (master, ref(app->streams.at(0)));
-    thread t_slave (slave, ref(app->streams.at(1)));
+    app_streams.at(0)->is_active = true;
+    app_streams.at(1)->is_active = true;
+    thread t_master (master, ref(app_streams.at(0)));
+    thread t_slave (slave, ref(app_streams.at(1)));
+    cout << " [x] Started" << endl;
 
-    while(is_run) {
-        usleep(50000);
+    flag = false;
+    while(app_is_run) {
+
+        flag = app_is_run;
+
+        if (!flag) {
+            usleep(50000);
+        }
+
     }
 
-    app->streams.at(0)->is_active = false;
-    app->streams.at(1)->is_active = false;
+
+    app_streams.at(0)->is_active = false;
+    app_streams.at(1)->is_active = false;
 
     t_master.join();
     t_slave.join();
 
+    cout << " [x] Finished" << endl;
 }
 
 int main() {
-    thread t_control(rabbit_control);
+    cout << "main: app->is_run["<<&app_is_run<<"]" << app_is_run << endl;
+    Controller *ctrl = new Controller();
+    thread t_control(rabbit_control, ref(ctrl));
     thread t_run(run_control);
 
     t_run.join();
