@@ -339,6 +339,33 @@ cvrender/master.cpp.s:
 	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/cvrender/master.cpp.s
 .PHONY : cvrender/master.cpp.s
 
+cvrender/slave.o: cvrender/slave.cpp.o
+
+.PHONY : cvrender/slave.o
+
+# target to build an object file
+cvrender/slave.cpp.o:
+	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/cvrender/slave.cpp.o
+.PHONY : cvrender/slave.cpp.o
+
+cvrender/slave.i: cvrender/slave.cpp.i
+
+.PHONY : cvrender/slave.i
+
+# target to preprocess a source file
+cvrender/slave.cpp.i:
+	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/cvrender/slave.cpp.i
+.PHONY : cvrender/slave.cpp.i
+
+cvrender/slave.s: cvrender/slave.cpp.s
+
+.PHONY : cvrender/slave.s
+
+# target to generate assembly for a file
+cvrender/slave.cpp.s:
+	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/cvrender/slave.cpp.s
+.PHONY : cvrender/slave.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -480,6 +507,9 @@ help:
 	@echo "... cvrender/master.o"
 	@echo "... cvrender/master.i"
 	@echo "... cvrender/master.s"
+	@echo "... cvrender/slave.o"
+	@echo "... cvrender/slave.i"
+	@echo "... cvrender/slave.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

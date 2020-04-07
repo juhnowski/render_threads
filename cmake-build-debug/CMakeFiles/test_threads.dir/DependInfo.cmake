@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ilya/CLionProjects/test_threads/commands/Start.cpp" "/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles/test_threads.dir/commands/Start.cpp.o"
   "/home/ilya/CLionProjects/test_threads/commands/Stop.cpp" "/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles/test_threads.dir/commands/Stop.cpp.o"
   "/home/ilya/CLionProjects/test_threads/cvrender/master.cpp" "/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles/test_threads.dir/cvrender/master.cpp.o"
+  "/home/ilya/CLionProjects/test_threads/cvrender/slave.cpp" "/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles/test_threads.dir/cvrender/slave.cpp.o"
   "/home/ilya/CLionProjects/test_threads/main.cpp" "/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles/test_threads.dir/main.cpp.o"
   "/home/ilya/CLionProjects/test_threads/rabbit/Controller.cpp" "/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o"
   "/home/ilya/CLionProjects/test_threads/rabbit/Handler.cpp" "/home/ilya/CLionProjects/test_threads/cmake-build-debug/CMakeFiles/test_threads.dir/rabbit/Handler.cpp.o"

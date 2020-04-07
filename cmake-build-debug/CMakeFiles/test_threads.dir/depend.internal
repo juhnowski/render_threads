@@ -166,6 +166,9 @@ CMakeFiles/test_threads.dir/cvrender/master.cpp.o
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp
  /usr/local/include/opencv4/opencv2/video/tracking.hpp
  /usr/local/include/opencv4/opencv2/videoio.hpp
+CMakeFiles/test_threads.dir/cvrender/slave.cpp.o
+ /home/ilya/CLionProjects/test_threads/cvrender/slave.cpp
+ /home/ilya/CLionProjects/test_threads/cvrender/slave.h
 CMakeFiles/test_threads.dir/main.cpp.o
  /home/ilya/CLionProjects/test_threads/ImageContext.h
  /home/ilya/CLionProjects/test_threads/StreamContext.h

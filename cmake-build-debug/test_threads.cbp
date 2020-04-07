@@ -134,6 +134,12 @@
 		<Unit filename="/home/ilya/CLionProjects/test_threads/cvrender/master.h">
 			<Option target="test_threads"/>
 		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/cvrender/slave.cpp">
+			<Option target="test_threads"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/test_threads/cvrender/slave.h">
+			<Option target="test_threads"/>
+		</Unit>
 		<Unit filename="/home/ilya/CLionProjects/test_threads/global.h">
 			<Option target="test_threads"/>
 		</Unit>

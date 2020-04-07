@@ -166,6 +166,9 @@ CMakeFiles/test_threads.dir/cvrender/master.cpp.o: /usr/local/include/opencv4/op
 CMakeFiles/test_threads.dir/cvrender/master.cpp.o: /usr/local/include/opencv4/opencv2/video/tracking.hpp
 CMakeFiles/test_threads.dir/cvrender/master.cpp.o: /usr/local/include/opencv4/opencv2/videoio.hpp
 
+CMakeFiles/test_threads.dir/cvrender/slave.cpp.o: ../cvrender/slave.cpp
+CMakeFiles/test_threads.dir/cvrender/slave.cpp.o: ../cvrender/slave.h
+
 CMakeFiles/test_threads.dir/main.cpp.o: ../ImageContext.h
 CMakeFiles/test_threads.dir/main.cpp.o: ../StreamContext.h
 CMakeFiles/test_threads.dir/main.cpp.o: ../commands/Add.h
