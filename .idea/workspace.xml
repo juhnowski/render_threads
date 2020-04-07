@@ -12,39 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0449a73-ab74-4efd-8617-45cba8d04220" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/global.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationContext.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationContext.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test_threads" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test_threads" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test_threads.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test_threads.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/Add.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/commands/Add.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/Add.h" beforeDir="false" afterPath="$PROJECT_DIR$/commands/Add.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/Command.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/commands/Command.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/Command.h" beforeDir="false" afterPath="$PROJECT_DIR$/commands/Command.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/Executor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/commands/Executor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/Executor.h" beforeDir="false" afterPath="$PROJECT_DIR$/commands/Executor.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/Start.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/commands/Start.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/Start.h" beforeDir="false" afterPath="$PROJECT_DIR$/commands/Start.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/Stop.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/commands/Stop.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/Stop.h" beforeDir="false" afterPath="$PROJECT_DIR$/commands/Stop.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit/Controller.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit/Controller.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit/Controller.h" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit/Controller.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit/Timer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit/Timer.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +67,7 @@
       <workItem from="1585959829765" duration="9714000" />
       <workItem from="1586054590781" duration="12566000" />
       <workItem from="1586150509410" duration="47384000" />
-      <workItem from="1586240466706" duration="2395000" />
+      <workItem from="1586240466706" duration="2685000" />
     </task>
     <task id="LOCAL-00001" summary="rabbit">
       <created>1586185845968</created>
@@ -115,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586218560839</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="before merge with cv">
+      <created>1586243068259</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586243068259</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,17 +100,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="rabbit" />
     <MESSAGE value="Check slave_stream_max_count in Add command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Check slave_stream_max_count in Add command" />
+    <MESSAGE value="before merge with cv" />
+    <option name="LAST_COMMIT_MESSAGE" value="before merge with cv" />
   </component>
   <component name="WindowStateProjectService">
     <state x="639" y="344" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586233023667">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="639" y="344" key="#com.intellij.fileTypes.FileTypeChooser/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586233023667" />
-    <state x="562" y="115" key="CommitChangelistDialog2" timestamp="1586218560692">
+    <state x="562" y="115" key="CommitChangelistDialog2" timestamp="1586243268973">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="562" y="115" key="CommitChangelistDialog2/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586218560692" />
+    <state x="562" y="115" key="CommitChangelistDialog2/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586243268973" />
     <state width="1462" height="265" key="GridCell.Tab.0.bottom" timestamp="1586242984866">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -168,10 +144,10 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1809" height="310" key="GridCell.Tab.1.right/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586240450887" />
-    <state x="592" y="275" key="Vcs.Push.Dialog.v2" timestamp="1586218562391">
+    <state x="592" y="275" key="Vcs.Push.Dialog.v2" timestamp="1586243070012">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="592" y="275" key="Vcs.Push.Dialog.v2/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586218562391" />
+    <state x="592" y="275" key="Vcs.Push.Dialog.v2/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586243070012" />
     <state x="310" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586150525542">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
