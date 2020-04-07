@@ -14,10 +14,16 @@ namespace command {
             string name = p[STR_PARAM_ID];
             int video = p[STR_PARAM_VIDEO];
             int audio = p[STR_PARAM_AUDIO];
+            string rtmp = p[STR_PARAM_RTMP];
+
             name.erase(std::remove(name.begin(), name.end(), '"'), name.end());
+            rtmp.erase(std::remove(rtmp.begin(), rtmp.end(), '"'), rtmp.end());
+
             params_str.insert(make_pair(ParamEnum::ID, name));
             params_int.insert(make_pair(ParamEnum::VIDEO, video));
             params_int.insert(make_pair(ParamEnum::AUDIO, audio));
+            params_str.insert(make_pair(ParamEnum::RTMP, rtmp));
+
         }
     }
 

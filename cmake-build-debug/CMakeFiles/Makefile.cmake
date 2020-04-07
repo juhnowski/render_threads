@@ -26,6 +26,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/ilya/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/Compiler/GNU-C.cmake"
   "/home/ilya/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/Compiler/GNU-CXX.cmake"
   "/home/ilya/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/Compiler/GNU.cmake"
+  "/home/ilya/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake"
+  "/home/ilya/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/FindPackageMessage.cmake"
   "/home/ilya/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/Internal/CMakeCheckCompilerFlag.cmake"
   "/home/ilya/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/Platform/Linux-GNU-C.cmake"
   "/home/ilya/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/Platform/Linux-GNU-CXX.cmake"
@@ -33,6 +35,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/ilya/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/Platform/Linux.cmake"
   "/home/ilya/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/Platform/UnixPaths.cmake"
   "/home/ilya/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/ProcessorCount.cmake"
+  "/usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake"
+  "/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake"
+  "/usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake"
+  "/usr/local/lib/cmake/opencv4/OpenCVModules.cmake"
   )
 
 # The corresponding makefile is:

@@ -312,6 +312,33 @@ commands/Stop.cpp.s:
 	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/commands/Stop.cpp.s
 .PHONY : commands/Stop.cpp.s
 
+cvrender/master.o: cvrender/master.cpp.o
+
+.PHONY : cvrender/master.o
+
+# target to build an object file
+cvrender/master.cpp.o:
+	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/cvrender/master.cpp.o
+.PHONY : cvrender/master.cpp.o
+
+cvrender/master.i: cvrender/master.cpp.i
+
+.PHONY : cvrender/master.i
+
+# target to preprocess a source file
+cvrender/master.cpp.i:
+	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/cvrender/master.cpp.i
+.PHONY : cvrender/master.cpp.i
+
+cvrender/master.s: cvrender/master.cpp.s
+
+.PHONY : cvrender/master.s
+
+# target to generate assembly for a file
+cvrender/master.cpp.s:
+	$(MAKE) -f CMakeFiles/test_threads.dir/build.make CMakeFiles/test_threads.dir/cvrender/master.cpp.s
+.PHONY : cvrender/master.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -450,6 +477,9 @@ help:
 	@echo "... commands/Stop.o"
 	@echo "... commands/Stop.i"
 	@echo "... commands/Stop.s"
+	@echo "... cvrender/master.o"
+	@echo "... cvrender/master.i"
+	@echo "... cvrender/master.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

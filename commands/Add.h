@@ -7,7 +7,7 @@ namespace command {
     class Add {
     public:
         static void exec(Command *cmd);
-        static StreamContext* add_StreamContext(string name, int videoPort, int audioPort);
+        static StreamContext* add_StreamContext(string name, int videoPort, int audioPort, string rtmp);
     };
 }
 

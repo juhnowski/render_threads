@@ -9,6 +9,7 @@ string names[slave_stream_max_count + 1];
 int video_ports[slave_stream_max_count + 1];
 int audio_ports[slave_stream_max_count + 1];
 int images[slave_stream_max_count + 1];
+string rtmps[slave_stream_max_count + 1];
 
 int stream_cnt = 0;
 mutex m_stream_cnt;
@@ -17,7 +18,7 @@ vector<StreamContext *> app_streams;
 bool app_is_run = false;
 
 
-void master(StreamContext *ctx) {
+void master_stub(StreamContext *ctx) {
     while(ctx->is_active) {
 
         for (int i = 1; i < app_streams.size(); ++i) {
@@ -32,7 +33,7 @@ void master(StreamContext *ctx) {
 }
 
 
-void slave(StreamContext *ctx) {
+void slave_stub(StreamContext *ctx) {
     while(ctx->is_active) {
 
         ctx->image_ctx->mtx->lock();
@@ -60,8 +61,9 @@ void run_control() {
 
     app_streams.at(0)->is_active = true;
     app_streams.at(1)->is_active = true;
+    //thread t_master (master_stub, ref(app_streams.at(0)));
     thread t_master (master, ref(app_streams.at(0)));
-    thread t_slave (slave, ref(app_streams.at(1)));
+    thread t_slave (slave_stub, ref(app_streams.at(1)));
     cout << " [x] Started" << endl;
 
     flag = false;

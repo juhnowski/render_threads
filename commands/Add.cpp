@@ -3,7 +3,7 @@
 
 namespace command {
 
-    StreamContext* Add::add_StreamContext(string name, int videoPort, int audioPort) {
+    StreamContext* Add::add_StreamContext(string name, int videoPort, int audioPort, string rtmp) {
         m_stream_cnt.lock();
         int idx = stream_cnt;
 
@@ -20,8 +20,9 @@ namespace command {
         names[idx] = string(name);
         video_ports[idx] = videoPort;
         audio_ports[idx] = audioPort;
+        rtmps[idx] = rtmp;
 
-        StreamContext *ctx = new StreamContext(idx, &names[idx], &video_ports[idx], &audio_ports[idx], im,true);
+        StreamContext *ctx = new StreamContext(idx, &names[idx], &video_ports[idx], &audio_ports[idx], &rtmps[idx], im,true);
 
         app_streams.push_back(ctx);
         cout << " [x] Add: "<< ctx << endl;
@@ -32,7 +33,8 @@ namespace command {
         add_StreamContext(
                 cmd->params_str[ParamEnum::ID],
                 cmd->params_int[ParamEnum::VIDEO],
-                cmd->params_int[ParamEnum::AUDIO]
+                cmd->params_int[ParamEnum::AUDIO],
+                cmd->params_str[ParamEnum::RTMP]
         );
     }
 

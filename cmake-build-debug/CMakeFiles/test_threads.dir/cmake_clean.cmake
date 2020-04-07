@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/test_threads.dir/commands/Executor.cpp.o"
   "CMakeFiles/test_threads.dir/commands/Start.cpp.o"
   "CMakeFiles/test_threads.dir/commands/Stop.cpp.o"
+  "CMakeFiles/test_threads.dir/cvrender/master.cpp.o"
   "CMakeFiles/test_threads.dir/main.cpp.o"
   "CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o"
   "CMakeFiles/test_threads.dir/rabbit/Handler.cpp.o"

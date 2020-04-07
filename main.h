@@ -9,6 +9,7 @@
 #include <vector>
 #include <mutex>
 #include "rabbit/Controller.h"
+#include "cvrender/master.h"
 
 #endif //TEST_THREADS_MAIN_H
 

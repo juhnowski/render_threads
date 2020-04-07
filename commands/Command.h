@@ -9,6 +9,7 @@
 #include "../libh/json.hpp"
 #include <map>
 #include <iostream>
+#include "../global.h"
 
 namespace command {
     using namespace std;
@@ -45,9 +46,6 @@ namespace command {
         static CmdEnum cmd_from_string(string *value);
         static ParamEnum param_from_string(string *value);
     };
-
-
-
 
 }
 
