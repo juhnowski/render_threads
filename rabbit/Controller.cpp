@@ -4,19 +4,11 @@
 #include <amqpcpp/libev.h>
 #include <openssl/ssl.h>
 #include <openssl/opensslv.h>
-
 #include "Handler.h"
 #include "Timer.h"
 #include <iostream>
-#include <unistd.h>
-#include <thread>
-
-#include <vector>
 #include <mutex>
-#include "../ImageContext.h"
-#include "../StreamContext.h"
-#include "../ApplicationContext.h"
-#include "../settings.h"
+
 #include "../commands/Executor.h"
 
 namespace rabbit {
@@ -68,34 +60,17 @@ namespace rabbit {
                    bool redelivered)
                 {
                     string json_str = string(message.body()).substr(0,message.bodySize());
-//                    std::cout <<" [x] "
-//                              <<message.routingkey()
-//                              <<":"
-//                              << json_str
-//                              << std::endl;
-//                    auto j = json::parse(json_str);
-//
-//                    string name = j["id"];
-//                    int audio_port = j["audio"];
-//                    int video_port = j["video"];
-//
-//                    name.erase(std::remove(name.begin(), name.end(), '"'), name.end());
-//                    cout << "id:" << name << endl;
-//                    cout << "audio:" << audio_port << endl;
-//                    cout << "video:" << video_port << endl;
-//                    cout << "rtmp:" << j["rtmp"] << endl;
-
                     command::Executor::exec(&json_str);
                 };
 
         string queue_name = "my-queue";
         myChannel.declareQueue(queue_name, true)
                 .onSuccess([](){
-                    cout << " [x]  Declare queue success"<< endl;
+                    cout << " [x] Declare queue success"<< endl;
                 })
 
                 .onError([](const char *message) {
-                    cout << " [-]  Declare queue error: "<< message << endl;
+                    cout << " [-] Declare queue error: "<< message << endl;
                 });
 
         string routing_key = "golive-renderer.command";

@@ -69,7 +69,6 @@ CMakeFiles/test_threads.dir/main.cpp.o: ../main.h
 CMakeFiles/test_threads.dir/main.cpp.o: ../rabbit/Controller.h
 CMakeFiles/test_threads.dir/main.cpp.o: ../settings.h
 
-CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o: ../ApplicationContext.h
 CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o: ../ImageContext.h
 CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o: ../StreamContext.h
 CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o: ../commands/Add.h
@@ -82,7 +81,6 @@ CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o: ../rabbit/Controller.cpp
 CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o: ../rabbit/Controller.h
 CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o: ../rabbit/Handler.h
 CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o: ../rabbit/Timer.h
-CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o: ../settings.h
 
 CMakeFiles/test_threads.dir/rabbit/Handler.cpp.o: ../rabbit/Handler.cpp
 CMakeFiles/test_threads.dir/rabbit/Handler.cpp.o: ../rabbit/Handler.h

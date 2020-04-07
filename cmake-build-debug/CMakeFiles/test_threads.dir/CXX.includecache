@@ -33,6 +33,8 @@ Add.h
 /home/ilya/CLionProjects/test_threads/commands/Add.h
 ../main.h
 /home/ilya/CLionProjects/test_threads/main.h
+../settings.h
+/home/ilya/CLionProjects/test_threads/settings.h
 
 /home/ilya/CLionProjects/test_threads/commands/Add.h
 Command.h

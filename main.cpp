@@ -34,25 +34,6 @@ void slave(StreamContext *ctx) {
 }
 
 
-//static StreamContext* add_StreamContext(string name, int videoPort, int audioPort, int *image) {
-//    m_stream_cnt.lock();
-//    int idx = stream_cnt;
-//    stream_cnt++;
-//    m_stream_cnt.unlock();
-//
-//    ImageContext *im = new ImageContext(&mu[idx], image);
-//
-//    names[idx] = string(name);
-//    video_ports[idx] = videoPort;
-//    audio_ports[idx] = audioPort;
-//
-//    StreamContext *ctx = new StreamContext(idx, &names[idx], &video_ports[idx], &audio_ports[idx], im,true);
-//
-//    app->streams.push_back(ctx);
-//
-//    return ctx;
-//}
-
 void rabbit_control() {
 
     Controller *ctrl = new Controller();

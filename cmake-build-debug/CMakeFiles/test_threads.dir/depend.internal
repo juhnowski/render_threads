@@ -70,7 +70,6 @@ CMakeFiles/test_threads.dir/main.cpp.o
  /home/ilya/CLionProjects/test_threads/rabbit/Controller.h
  /home/ilya/CLionProjects/test_threads/settings.h
 CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o
- /home/ilya/CLionProjects/test_threads/ApplicationContext.h
  /home/ilya/CLionProjects/test_threads/ImageContext.h
  /home/ilya/CLionProjects/test_threads/StreamContext.h
  /home/ilya/CLionProjects/test_threads/commands/Add.h
@@ -83,7 +82,6 @@ CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o
  /home/ilya/CLionProjects/test_threads/rabbit/Controller.h
  /home/ilya/CLionProjects/test_threads/rabbit/Handler.h
  /home/ilya/CLionProjects/test_threads/rabbit/Timer.h
- /home/ilya/CLionProjects/test_threads/settings.h
 CMakeFiles/test_threads.dir/rabbit/Handler.cpp.o
  /home/ilya/CLionProjects/test_threads/rabbit/Handler.cpp
  /home/ilya/CLionProjects/test_threads/rabbit/Handler.h
