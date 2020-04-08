@@ -49,7 +49,9 @@ add_executable(test_threads
         settings.h
         global.h
         cvrender/master.cpp
-        cvrender/master.h cvrender/slave.cpp cvrender/slave.h)
+        cvrender/master.h
+        cvrender/slave.cpp
+        cvrender/slave.h)
 
 target_link_libraries(test_threads
         ${OpenCV_LIBS}

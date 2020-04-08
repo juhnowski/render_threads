@@ -1,5 +1,6 @@
 
 #include "main.h"
+#include "cvrender/master.h"
 
 using namespace std;
 using namespace rabbit;
@@ -62,8 +63,9 @@ void run_control() {
     app_streams.at(0)->is_active = true;
     app_streams.at(1)->is_active = true;
     //thread t_master (master_stub, ref(app_streams.at(0)));
-    thread t_master (master, ref(app_streams.at(0)));
-    thread t_slave (slave_stub, ref(app_streams.at(1)));
+    thread t_master (cvrender::master::master, ref(app_streams.at(0)));
+    //thread t_slave (slave_stub, ref(app_streams.at(1))); //
+      thread t_slave (cvrender::slave::slave, ref(app_streams.at(1))); //slave_stub, ref(app_streams.at(1))
     cout << " [x] Started" << endl;
 
     flag = false;

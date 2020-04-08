@@ -10,6 +10,7 @@
 #include <mutex>
 #include "rabbit/Controller.h"
 #include "cvrender/master.h"
+#include "cvrender/slave.h"
 
 #endif //TEST_THREADS_MAIN_H
 

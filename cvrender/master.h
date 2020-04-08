@@ -2,7 +2,9 @@
 #define TEST_THREADS_MASTER_H
 
 #include "../global.h"
-
-int master(StreamContext *ctx);
-
+namespace cvrender {
+    namespace master {
+        int master(StreamContext *ctx);
+    }
+}
 #endif //TEST_THREADS_MASTER_H
