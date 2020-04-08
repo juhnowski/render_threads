@@ -9,12 +9,12 @@ using namespace std;
 
 class ImageContext {
 public:
-    ImageContext(mutex *mtx, cv::Mat image);
+    ImageContext(mutex *mtx, cv::Mat *image);
     ImageContext(mutex *mtx);
     string to_string() const;
     friend ostream& operator << (ostream& outs, const ImageContext* obj);
 
-    cv::Mat image;
+    cv::Mat *image;
     std::mutex *mtx;
 };
 

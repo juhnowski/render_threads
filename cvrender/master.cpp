@@ -314,11 +314,13 @@ namespace cvrender {
             unsigned nb_frames = 0;
             bool end_of_stream = false;
             int got_pkt = 0;
+            double alpha = 0.5; double beta = 0.5;
+
             do {
                 if (!end_of_stream) {
                     // retrieve source image
                     cvcap >> image;
-
+                    addWeighted( image.clone(), alpha, *app_streams.at(1)->image_ctx->image, beta, 0.0, image);
                     cv::imshow("master", image);
                     if (cv::waitKey(33) == 0x1b)
                         end_of_stream = true;

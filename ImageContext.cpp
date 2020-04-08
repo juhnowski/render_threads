@@ -1,6 +1,6 @@
 #include "ImageContext.h"
 
-ImageContext::ImageContext(mutex *mtx, cv::Mat image) : mtx(mtx), image(image) {
+ImageContext::ImageContext(mutex *mtx, cv::Mat *image) : mtx(mtx), image(image) {
     this->mtx = mtx;
     this->image = image;
 }

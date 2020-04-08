@@ -248,14 +248,14 @@ namespace cvrender{
 
             std::vector<uint8_t> imgbuf(height * width * 3 + 16);
             cv::Mat image(height, width, CV_8UC3, imgbuf.data(), width * 3);
+            ctx->image_ctx->image = &image;
 
             bool end_of_stream = false;
 
             do {
                 cap >> image;
                 cv::imshow("slave", image);
-//                cout << "image: " << &image << endl;
-//                ctx->image_ctx[ctx->idx].image = image.clone();
+                cout << "image: " << &image << endl;
             } while (ctx->is_active);
 
             delete_sdp(&sdp_slave_vector);
