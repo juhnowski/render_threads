@@ -4,10 +4,50 @@
 CMakeFiles/test_threads.dir/ImageContext.cpp.o
  /home/ilya/CLionProjects/test_threads/ImageContext.cpp
  /home/ilya/CLionProjects/test_threads/ImageContext.h
+ /usr/local/include/opencv4/opencv2/core/base.hpp
+ /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
+ /usr/local/include/opencv4/opencv2/core/check.hpp
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_helper.h
+ /usr/local/include/opencv4/opencv2/core/cvdef.h
+ /usr/local/include/opencv4/opencv2/core/cvstd.hpp
+ /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+ /usr/local/include/opencv4/opencv2/core/fast_math.hpp
+ /usr/local/include/opencv4/opencv2/core/hal/interface.h
+ /usr/local/include/opencv4/opencv2/core/hal/msa_macros.h
+ /usr/local/include/opencv4/opencv2/core/mat.hpp
+ /usr/local/include/opencv4/opencv2/core/mat.inl.hpp
+ /usr/local/include/opencv4/opencv2/core/matx.hpp
+ /usr/local/include/opencv4/opencv2/core/neon_utils.hpp
+ /usr/local/include/opencv4/opencv2/core/saturate.hpp
+ /usr/local/include/opencv4/opencv2/core/traits.hpp
+ /usr/local/include/opencv4/opencv2/core/types.hpp
+ /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp
+ /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/test_threads.dir/StreamContext.cpp.o
  /home/ilya/CLionProjects/test_threads/ImageContext.h
  /home/ilya/CLionProjects/test_threads/StreamContext.cpp
  /home/ilya/CLionProjects/test_threads/StreamContext.h
+ /usr/local/include/opencv4/opencv2/core/base.hpp
+ /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
+ /usr/local/include/opencv4/opencv2/core/check.hpp
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_helper.h
+ /usr/local/include/opencv4/opencv2/core/cvdef.h
+ /usr/local/include/opencv4/opencv2/core/cvstd.hpp
+ /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+ /usr/local/include/opencv4/opencv2/core/fast_math.hpp
+ /usr/local/include/opencv4/opencv2/core/hal/interface.h
+ /usr/local/include/opencv4/opencv2/core/hal/msa_macros.h
+ /usr/local/include/opencv4/opencv2/core/mat.hpp
+ /usr/local/include/opencv4/opencv2/core/mat.inl.hpp
+ /usr/local/include/opencv4/opencv2/core/matx.hpp
+ /usr/local/include/opencv4/opencv2/core/neon_utils.hpp
+ /usr/local/include/opencv4/opencv2/core/saturate.hpp
+ /usr/local/include/opencv4/opencv2/core/traits.hpp
+ /usr/local/include/opencv4/opencv2/core/types.hpp
+ /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp
+ /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/test_threads.dir/commands/Add.cpp.o
  /home/ilya/CLionProjects/test_threads/ImageContext.h
  /home/ilya/CLionProjects/test_threads/StreamContext.h
@@ -19,6 +59,26 @@ CMakeFiles/test_threads.dir/commands/Add.cpp.o
  /home/ilya/CLionProjects/test_threads/global.h
  /home/ilya/CLionProjects/test_threads/libh/json.hpp
  /home/ilya/CLionProjects/test_threads/settings.h
+ /usr/local/include/opencv4/opencv2/core/base.hpp
+ /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
+ /usr/local/include/opencv4/opencv2/core/check.hpp
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_helper.h
+ /usr/local/include/opencv4/opencv2/core/cvdef.h
+ /usr/local/include/opencv4/opencv2/core/cvstd.hpp
+ /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+ /usr/local/include/opencv4/opencv2/core/fast_math.hpp
+ /usr/local/include/opencv4/opencv2/core/hal/interface.h
+ /usr/local/include/opencv4/opencv2/core/hal/msa_macros.h
+ /usr/local/include/opencv4/opencv2/core/mat.hpp
+ /usr/local/include/opencv4/opencv2/core/mat.inl.hpp
+ /usr/local/include/opencv4/opencv2/core/matx.hpp
+ /usr/local/include/opencv4/opencv2/core/neon_utils.hpp
+ /usr/local/include/opencv4/opencv2/core/saturate.hpp
+ /usr/local/include/opencv4/opencv2/core/traits.hpp
+ /usr/local/include/opencv4/opencv2/core/types.hpp
+ /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp
+ /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/test_threads.dir/commands/Command.cpp.o
  /home/ilya/CLionProjects/test_threads/ImageContext.h
  /home/ilya/CLionProjects/test_threads/StreamContext.h
@@ -27,6 +87,26 @@ CMakeFiles/test_threads.dir/commands/Command.cpp.o
  /home/ilya/CLionProjects/test_threads/global.h
  /home/ilya/CLionProjects/test_threads/libh/json.hpp
  /home/ilya/CLionProjects/test_threads/settings.h
+ /usr/local/include/opencv4/opencv2/core/base.hpp
+ /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
+ /usr/local/include/opencv4/opencv2/core/check.hpp
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_helper.h
+ /usr/local/include/opencv4/opencv2/core/cvdef.h
+ /usr/local/include/opencv4/opencv2/core/cvstd.hpp
+ /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+ /usr/local/include/opencv4/opencv2/core/fast_math.hpp
+ /usr/local/include/opencv4/opencv2/core/hal/interface.h
+ /usr/local/include/opencv4/opencv2/core/hal/msa_macros.h
+ /usr/local/include/opencv4/opencv2/core/mat.hpp
+ /usr/local/include/opencv4/opencv2/core/mat.inl.hpp
+ /usr/local/include/opencv4/opencv2/core/matx.hpp
+ /usr/local/include/opencv4/opencv2/core/neon_utils.hpp
+ /usr/local/include/opencv4/opencv2/core/saturate.hpp
+ /usr/local/include/opencv4/opencv2/core/traits.hpp
+ /usr/local/include/opencv4/opencv2/core/types.hpp
+ /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp
+ /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/test_threads.dir/commands/Executor.cpp.o
  /home/ilya/CLionProjects/test_threads/ImageContext.h
  /home/ilya/CLionProjects/test_threads/StreamContext.h
@@ -39,6 +119,26 @@ CMakeFiles/test_threads.dir/commands/Executor.cpp.o
  /home/ilya/CLionProjects/test_threads/global.h
  /home/ilya/CLionProjects/test_threads/libh/json.hpp
  /home/ilya/CLionProjects/test_threads/settings.h
+ /usr/local/include/opencv4/opencv2/core/base.hpp
+ /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
+ /usr/local/include/opencv4/opencv2/core/check.hpp
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_helper.h
+ /usr/local/include/opencv4/opencv2/core/cvdef.h
+ /usr/local/include/opencv4/opencv2/core/cvstd.hpp
+ /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+ /usr/local/include/opencv4/opencv2/core/fast_math.hpp
+ /usr/local/include/opencv4/opencv2/core/hal/interface.h
+ /usr/local/include/opencv4/opencv2/core/hal/msa_macros.h
+ /usr/local/include/opencv4/opencv2/core/mat.hpp
+ /usr/local/include/opencv4/opencv2/core/mat.inl.hpp
+ /usr/local/include/opencv4/opencv2/core/matx.hpp
+ /usr/local/include/opencv4/opencv2/core/neon_utils.hpp
+ /usr/local/include/opencv4/opencv2/core/saturate.hpp
+ /usr/local/include/opencv4/opencv2/core/traits.hpp
+ /usr/local/include/opencv4/opencv2/core/types.hpp
+ /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp
+ /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/test_threads.dir/commands/Start.cpp.o
  /home/ilya/CLionProjects/test_threads/ImageContext.h
  /home/ilya/CLionProjects/test_threads/StreamContext.h
@@ -49,6 +149,26 @@ CMakeFiles/test_threads.dir/commands/Start.cpp.o
  /home/ilya/CLionProjects/test_threads/global.h
  /home/ilya/CLionProjects/test_threads/libh/json.hpp
  /home/ilya/CLionProjects/test_threads/settings.h
+ /usr/local/include/opencv4/opencv2/core/base.hpp
+ /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
+ /usr/local/include/opencv4/opencv2/core/check.hpp
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_helper.h
+ /usr/local/include/opencv4/opencv2/core/cvdef.h
+ /usr/local/include/opencv4/opencv2/core/cvstd.hpp
+ /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+ /usr/local/include/opencv4/opencv2/core/fast_math.hpp
+ /usr/local/include/opencv4/opencv2/core/hal/interface.h
+ /usr/local/include/opencv4/opencv2/core/hal/msa_macros.h
+ /usr/local/include/opencv4/opencv2/core/mat.hpp
+ /usr/local/include/opencv4/opencv2/core/mat.inl.hpp
+ /usr/local/include/opencv4/opencv2/core/matx.hpp
+ /usr/local/include/opencv4/opencv2/core/neon_utils.hpp
+ /usr/local/include/opencv4/opencv2/core/saturate.hpp
+ /usr/local/include/opencv4/opencv2/core/traits.hpp
+ /usr/local/include/opencv4/opencv2/core/types.hpp
+ /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp
+ /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/test_threads.dir/commands/Stop.cpp.o
  /home/ilya/CLionProjects/test_threads/ImageContext.h
  /home/ilya/CLionProjects/test_threads/StreamContext.h
@@ -58,6 +178,26 @@ CMakeFiles/test_threads.dir/commands/Stop.cpp.o
  /home/ilya/CLionProjects/test_threads/global.h
  /home/ilya/CLionProjects/test_threads/libh/json.hpp
  /home/ilya/CLionProjects/test_threads/settings.h
+ /usr/local/include/opencv4/opencv2/core/base.hpp
+ /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
+ /usr/local/include/opencv4/opencv2/core/check.hpp
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_helper.h
+ /usr/local/include/opencv4/opencv2/core/cvdef.h
+ /usr/local/include/opencv4/opencv2/core/cvstd.hpp
+ /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+ /usr/local/include/opencv4/opencv2/core/fast_math.hpp
+ /usr/local/include/opencv4/opencv2/core/hal/interface.h
+ /usr/local/include/opencv4/opencv2/core/hal/msa_macros.h
+ /usr/local/include/opencv4/opencv2/core/mat.hpp
+ /usr/local/include/opencv4/opencv2/core/mat.inl.hpp
+ /usr/local/include/opencv4/opencv2/core/matx.hpp
+ /usr/local/include/opencv4/opencv2/core/neon_utils.hpp
+ /usr/local/include/opencv4/opencv2/core/saturate.hpp
+ /usr/local/include/opencv4/opencv2/core/traits.hpp
+ /usr/local/include/opencv4/opencv2/core/types.hpp
+ /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp
+ /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/test_threads.dir/cvrender/master.cpp.o
  /home/ilya/CLionProjects/test_threads/ImageContext.h
  /home/ilya/CLionProjects/test_threads/StreamContext.h
@@ -290,6 +430,26 @@ CMakeFiles/test_threads.dir/main.cpp.o
  /home/ilya/CLionProjects/test_threads/rabbit/Handler.h
  /home/ilya/CLionProjects/test_threads/rabbit/Timer.h
  /home/ilya/CLionProjects/test_threads/settings.h
+ /usr/local/include/opencv4/opencv2/core/base.hpp
+ /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
+ /usr/local/include/opencv4/opencv2/core/check.hpp
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_helper.h
+ /usr/local/include/opencv4/opencv2/core/cvdef.h
+ /usr/local/include/opencv4/opencv2/core/cvstd.hpp
+ /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+ /usr/local/include/opencv4/opencv2/core/fast_math.hpp
+ /usr/local/include/opencv4/opencv2/core/hal/interface.h
+ /usr/local/include/opencv4/opencv2/core/hal/msa_macros.h
+ /usr/local/include/opencv4/opencv2/core/mat.hpp
+ /usr/local/include/opencv4/opencv2/core/mat.inl.hpp
+ /usr/local/include/opencv4/opencv2/core/matx.hpp
+ /usr/local/include/opencv4/opencv2/core/neon_utils.hpp
+ /usr/local/include/opencv4/opencv2/core/saturate.hpp
+ /usr/local/include/opencv4/opencv2/core/traits.hpp
+ /usr/local/include/opencv4/opencv2/core/types.hpp
+ /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp
+ /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o
  /home/ilya/CLionProjects/test_threads/ImageContext.h
  /home/ilya/CLionProjects/test_threads/StreamContext.h
@@ -305,6 +465,26 @@ CMakeFiles/test_threads.dir/rabbit/Controller.cpp.o
  /home/ilya/CLionProjects/test_threads/rabbit/Handler.h
  /home/ilya/CLionProjects/test_threads/rabbit/Timer.h
  /home/ilya/CLionProjects/test_threads/settings.h
+ /usr/local/include/opencv4/opencv2/core/base.hpp
+ /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
+ /usr/local/include/opencv4/opencv2/core/check.hpp
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_helper.h
+ /usr/local/include/opencv4/opencv2/core/cvdef.h
+ /usr/local/include/opencv4/opencv2/core/cvstd.hpp
+ /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+ /usr/local/include/opencv4/opencv2/core/fast_math.hpp
+ /usr/local/include/opencv4/opencv2/core/hal/interface.h
+ /usr/local/include/opencv4/opencv2/core/hal/msa_macros.h
+ /usr/local/include/opencv4/opencv2/core/mat.hpp
+ /usr/local/include/opencv4/opencv2/core/mat.inl.hpp
+ /usr/local/include/opencv4/opencv2/core/matx.hpp
+ /usr/local/include/opencv4/opencv2/core/neon_utils.hpp
+ /usr/local/include/opencv4/opencv2/core/saturate.hpp
+ /usr/local/include/opencv4/opencv2/core/traits.hpp
+ /usr/local/include/opencv4/opencv2/core/types.hpp
+ /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp
+ /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/test_threads.dir/rabbit/Handler.cpp.o
  /home/ilya/CLionProjects/test_threads/rabbit/Handler.cpp
  /home/ilya/CLionProjects/test_threads/rabbit/Handler.h

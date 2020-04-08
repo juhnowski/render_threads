@@ -1,5 +1,5 @@
 #include "Add.h"
-
+#include "../global.h"
 
 namespace command {
 
@@ -15,7 +15,7 @@ namespace command {
         stream_cnt++;
         m_stream_cnt.unlock();
 
-        ImageContext *im = new ImageContext(&mu[idx], &images[idx]);
+        ImageContext *im = new ImageContext(&mu[idx]);
 
         names[idx] = string(name);
         video_ports[idx] = videoPort;

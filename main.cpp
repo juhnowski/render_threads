@@ -9,7 +9,7 @@ mutex mu[slave_stream_max_count + 1];
 string names[slave_stream_max_count + 1];
 int video_ports[slave_stream_max_count + 1];
 int audio_ports[slave_stream_max_count + 1];
-int images[slave_stream_max_count + 1];
+extern cv::Mat *images[slave_stream_max_count + 1];
 string rtmps[slave_stream_max_count + 1];
 
 int stream_cnt = 0;
@@ -19,32 +19,32 @@ vector<StreamContext *> app_streams;
 bool app_is_run = false;
 
 
-void master_stub(StreamContext *ctx) {
-    while(ctx->is_active) {
-
-        for (int i = 1; i < app_streams.size(); ++i) {
-            app_streams.at(i)->image_ctx->mtx->lock();
-            *app_streams.at(i)->image_ctx->image-= 2;
-            cout << "Master: " << *app_streams.at(i)->image_ctx->image << endl;
-            app_streams.at(i)->image_ctx->mtx->unlock();
-        }
-
-        usleep(50000);
-    }
-}
-
-
-void slave_stub(StreamContext *ctx) {
-    while(ctx->is_active) {
-
-        ctx->image_ctx->mtx->lock();
-        *ctx->image_ctx->image+= 2;
-        cout << "Slave: " << *ctx->image_ctx->image << endl;
-        ctx->image_ctx->mtx->unlock();
-
-        usleep(50000);
-    }
-}
+//void master_stub(StreamContext *ctx) {
+//    while(ctx->is_active) {
+//
+//        for (int i = 1; i < app_streams.size(); ++i) {
+//            app_streams.at(i)->image_ctx->mtx->lock();
+//            *app_streams.at(i)->image_ctx->image-= 2;
+//            cout << "Master: " << *app_streams.at(i)->image_ctx->image << endl;
+//            app_streams.at(i)->image_ctx->mtx->unlock();
+//        }
+//
+//        usleep(50000);
+//    }
+//}
+//
+//
+//void slave_stub(StreamContext *ctx) {
+//    while(ctx->is_active) {
+//
+//        ctx->image_ctx->mtx->lock();
+//        *ctx->image_ctx->image+= 2;
+//        cout << "Slave: " << *ctx->image_ctx->image << endl;
+//        ctx->image_ctx->mtx->unlock();
+//
+//        usleep(50000);
+//    }
+//}
 
 
 void rabbit_control(Controller *ctrl) {
