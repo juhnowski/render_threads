@@ -253,6 +253,7 @@ namespace cvrender{
 
             do {
                 cap >> image;
+                cv::imshow("slave", image);
 //                cout << "image: " << &image << endl;
 //                ctx->image_ctx[ctx->idx].image = image.clone();
             } while (ctx->is_active);

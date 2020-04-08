@@ -319,7 +319,7 @@ namespace cvrender {
                     // retrieve source image
                     cvcap >> image;
 
-                    cv::imshow("press ESC to exit", image);
+                    cv::imshow("master", image);
                     if (cv::waitKey(33) == 0x1b)
                         end_of_stream = true;
                 }
