@@ -177,8 +177,6 @@ namespace cvrender{
             input.audio = to_string(*index) + "_" + to_string(getpid()) + "_a.sdp";
             input.video = to_string(*index) + "_" + to_string(getpid()) + "_v.sdp";
 
-cout << "input.video = " << input.video;
-
             const char *a_sdp = input.audio.c_str();
             const char *v_sdp = input.video.c_str();
 
@@ -220,9 +218,8 @@ cout << "input.video = " << input.video;
             sdp_vector.push_back(input);
         }
 
-        static void delete_sdp(int, vector<input_t> *);
-
-        static void delete_sdp(int ret, vector<input_t> *sdp_vector) {
+        static void delete_sdp(vector<input_t> *);
+        static void delete_sdp(vector<input_t> *sdp_vector) {
             vector<input_t> *files = (vector<input_t> *) sdp_vector;
 
             for (input_t rtp: *(vector<input_t> *) sdp_vector) {
@@ -246,7 +243,7 @@ cout << "input.video = " << input.video;
             avformat_network_init();
 
             int ret;
-cout << "Slave video  [" << &sdp_slave_vector.at(0).video << "] " << sdp_slave_vector.at(0).video << endl;
+
             VideoCapture cap = get_input_stream(&sdp_slave_vector.at(0).video);
 
             std::vector<uint8_t> imgbuf(height * width * 3 + 16);
@@ -256,7 +253,11 @@ cout << "Slave video  [" << &sdp_slave_vector.at(0).video << "] " << sdp_slave_v
 
             do {
                 cap >> image;
-            } while (!end_of_stream);
+            } while (ctx->is_active);
+
+            delete_sdp(&sdp_slave_vector);
+
+            cout << " [x] Slave has been finished" << endl;
             return 0;
         }
 

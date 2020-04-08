@@ -104,9 +104,9 @@ namespace cvrender {
             fprintf(stderr, "\n");
         }
 
-        static void delete_sdp(int, vector<input_t> *);
+        static void delete_sdp(vector<input_t> *);
 
-        static void delete_sdp(int ret, vector<input_t> *sdp_vector) {
+        static void delete_sdp(vector<input_t> *sdp_vector) {
             vector<input_t> *files = (vector<input_t> *) sdp_vector;
 
             for (input_t rtp: *(vector<input_t> *) sdp_vector) {
@@ -373,14 +373,17 @@ namespace cvrender {
                     }
                 }
 //---------------------------------------------------------------------------------------------------
-            } while (!end_of_stream || got_pkt);
-            av_write_trailer(outctx);
-            std::cout << nb_frames << " frames encoded" << std::endl;
+            } while (ctx->is_active);//(!end_of_stream || got_pkt);
+//            av_write_trailer(outctx);
+//            std::cout << nb_frames << " frames encoded" << std::endl;
+//
+//            av_frame_free(&frame);
+//            avcodec_close(vstrm->codec);
+//            avio_close(outctx->pb);
+//            avformat_free_context(outctx);
 
-            av_frame_free(&frame);
-            avcodec_close(vstrm->codec);
-            avio_close(outctx->pb);
-            avformat_free_context(outctx);
+                delete_sdp(&sdp_vector);
+                cout << " [x] Master has been finished" << endl;
             return 0;
         }
 

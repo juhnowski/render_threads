@@ -13,17 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e0449a73-ab74-4efd-8617-45cba8d04220" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_threads.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test_threads" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test_threads" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cvrender/master.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cvrender/master.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvrender/master.h" beforeDir="false" afterPath="$PROJECT_DIR$/cvrender/master.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cvrender/slave.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cvrender/slave.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvrender/slave.h" beforeDir="false" afterPath="$PROJECT_DIR$/cvrender/slave.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/main.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +70,7 @@
       <workItem from="1586054590781" duration="12566000" />
       <workItem from="1586150509410" duration="47384000" />
       <workItem from="1586240466706" duration="9453000" />
-      <workItem from="1586301874403" duration="7522000" />
+      <workItem from="1586301874403" duration="8331000" />
     </task>
     <task id="LOCAL-00001" summary="rabbit">
       <created>1586185845968</created>
@@ -123,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586264034255</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix bug with sdp files, merge slave">
+      <created>1586313351090</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586313351090</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,49 +135,50 @@
     <MESSAGE value="add test scripts" />
     <MESSAGE value="add master cvrender" />
     <MESSAGE value="adding slave cvrender" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding slave cvrender" />
+    <MESSAGE value="fix bug with sdp files, merge slave" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug with sdp files, merge slave" />
   </component>
   <component name="WindowStateProjectService">
     <state x="639" y="344" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586233023667">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="639" y="344" key="#com.intellij.fileTypes.FileTypeChooser/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586233023667" />
-    <state x="562" y="115" key="CommitChangelistDialog2" timestamp="1586264033960">
+    <state x="562" y="115" key="CommitChangelistDialog2" timestamp="1586313350760">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="562" y="115" key="CommitChangelistDialog2/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586264033960" />
-    <state width="1725" height="223" key="GridCell.Tab.0.bottom" timestamp="1586313280826">
+    <state x="562" y="115" key="CommitChangelistDialog2/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586313350760" />
+    <state width="1725" height="222" key="GridCell.Tab.0.bottom" timestamp="1586314197810">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1725" height="223" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586313280826" />
-    <state width="1725" height="223" key="GridCell.Tab.0.center" timestamp="1586313280826">
+    <state width="1725" height="222" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586314197810" />
+    <state width="1725" height="222" key="GridCell.Tab.0.center" timestamp="1586314197810">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1725" height="223" key="GridCell.Tab.0.center/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586313280826" />
-    <state width="1725" height="223" key="GridCell.Tab.0.left" timestamp="1586313280826">
+    <state width="1725" height="222" key="GridCell.Tab.0.center/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586314197810" />
+    <state width="1725" height="222" key="GridCell.Tab.0.left" timestamp="1586314197810">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1725" height="223" key="GridCell.Tab.0.left/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586313280826" />
-    <state width="1725" height="223" key="GridCell.Tab.0.right" timestamp="1586313280826">
+    <state width="1725" height="222" key="GridCell.Tab.0.left/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586314197810" />
+    <state width="1725" height="222" key="GridCell.Tab.0.right" timestamp="1586314197810">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1725" height="223" key="GridCell.Tab.0.right/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586313280826" />
-    <state width="1725" height="223" key="GridCell.Tab.1.bottom" timestamp="1586313280826">
+    <state width="1725" height="222" key="GridCell.Tab.0.right/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586314197810" />
+    <state width="1725" height="222" key="GridCell.Tab.1.bottom" timestamp="1586314197810">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1725" height="223" key="GridCell.Tab.1.bottom/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586313280826" />
-    <state width="1725" height="223" key="GridCell.Tab.1.center" timestamp="1586313280826">
+    <state width="1725" height="222" key="GridCell.Tab.1.bottom/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586314197810" />
+    <state width="1725" height="222" key="GridCell.Tab.1.center" timestamp="1586314197810">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1725" height="223" key="GridCell.Tab.1.center/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586313280826" />
-    <state width="1725" height="223" key="GridCell.Tab.1.left" timestamp="1586313280826">
+    <state width="1725" height="222" key="GridCell.Tab.1.center/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586314197810" />
+    <state width="1725" height="222" key="GridCell.Tab.1.left" timestamp="1586314197810">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1725" height="223" key="GridCell.Tab.1.left/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586313280826" />
-    <state width="1725" height="223" key="GridCell.Tab.1.right" timestamp="1586313280826">
+    <state width="1725" height="222" key="GridCell.Tab.1.left/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586314197810" />
+    <state width="1725" height="222" key="GridCell.Tab.1.right" timestamp="1586314197810">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1725" height="223" key="GridCell.Tab.1.right/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586313280826" />
+    <state width="1725" height="222" key="GridCell.Tab.1.right/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586314197810" />
     <state width="994" height="300" key="GridCell.Tab.2.bottom" timestamp="1586313176635">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -196,10 +195,10 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="994" height="300" key="GridCell.Tab.2.right/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586313176635" />
-    <state x="592" y="275" key="Vcs.Push.Dialog.v2" timestamp="1586264036316">
+    <state x="592" y="275" key="Vcs.Push.Dialog.v2" timestamp="1586313353306">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="592" y="275" key="Vcs.Push.Dialog.v2/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586264036316" />
+    <state x="592" y="275" key="Vcs.Push.Dialog.v2/65.24.1855.1056/1920.312.1366.768@65.24.1855.1056" timestamp="1586313353306" />
     <state x="310" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586301877096">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -227,7 +226,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/cvrender/slave.cpp</url>
-          <line>245</line>
+          <line>242</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
